@@ -19,14 +19,14 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHL-oZ-BPo">
                                 <rect key="frame" x="111" y="306" width="153" height="54"/>
-                                <color key="backgroundColor" red="0.17299498973144925" green="0.614318541608046" blue="0.96620899438858032" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.40022802576054672" green="0.99693148898095196" blue="0.17691813757984706" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="VTR-6K-fT0"/>
                                     <constraint firstAttribute="height" constant="54" id="yj0-rH-PWJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="Login">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="onLoginButton:" destination="2XH-RD-YnC" eventType="touchUpInside" id="dFi-sJ-R9T"/>
@@ -114,7 +114,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Home" id="651-CF-O2U">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="XWU-hc-gCN">
-                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="onLogout:" destination="BX2-f6-Wri" id="aJG-SC-oDt"/>
                             </connections>
@@ -132,9 +132,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="FJD-SA-RyJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.17299498969999999" green="0.61431854159999999" blue="0.96620899439999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="barTintColor" red="0.36834063528718025" green="0.87124649519772879" blue="0.055673773055328751" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
                     </navigationBar>
                     <connections>
