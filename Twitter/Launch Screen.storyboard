@@ -15,8 +15,19 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="twitter" translatesAutoresizingMaskIntoConstraints="NO" id="3Yz-DN-xM9">
+                                <rect key="frame" x="70" y="192" width="235" height="283"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Yz-DN-xM9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9tk-tG-ysR"/>
+                            <constraint firstItem="3Yz-DN-xM9" firstAttribute="top" secondItem="Bcu-3y-fUS" secondAttribute="top" constant="192" id="G78-2g-6GL"/>
+                            <constraint firstItem="3Yz-DN-xM9" firstAttribute="leading" secondItem="Bcu-3y-fUS" secondAttribute="leading" constant="70" id="Wa5-SW-Gw1"/>
+                            <constraint firstItem="3Yz-DN-xM9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Z3P-br-dj8"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +35,7 @@
             <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="twitter" width="800" height="600"/>
+    </resources>
 </document>

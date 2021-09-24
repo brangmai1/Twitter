@@ -18,11 +18,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHL-oZ-BPo">
-                                <rect key="frame" x="111" y="306.5" width="153" height="54"/>
+                                <rect key="frame" x="111" y="306" width="153" height="54"/>
                                 <color key="backgroundColor" red="0.17299498973144925" green="0.614318541608046" blue="0.96620899438858032" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="153" id="6uo-YL-FLS"/>
-                                    <constraint firstAttribute="height" constant="54" id="oH5-g5-pet"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="44" id="VTR-6K-fT0"/>
+                                    <constraint firstAttribute="height" constant="54" id="yj0-rH-PWJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <state key="normal" title="Login">
@@ -36,8 +36,9 @@
                         <viewLayoutGuide key="safeArea" id="3Do-9V-3y7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="nHL-oZ-BPo" firstAttribute="centerX" secondItem="wjU-Zr-hli" secondAttribute="centerX" id="EdU-c7-kO8"/>
-                            <constraint firstItem="nHL-oZ-BPo" firstAttribute="centerY" secondItem="wjU-Zr-hli" secondAttribute="centerY" id="d37-vo-XP6"/>
+                            <constraint firstItem="nHL-oZ-BPo" firstAttribute="leading" secondItem="3Do-9V-3y7" secondAttribute="leading" constant="111" id="0fX-Wx-vko"/>
+                            <constraint firstItem="nHL-oZ-BPo" firstAttribute="top" secondItem="3Do-9V-3y7" secondAttribute="top" constant="306" id="JrZ-ex-gtT"/>
+                            <constraint firstItem="nHL-oZ-BPo" firstAttribute="centerX" secondItem="wjU-Zr-hli" secondAttribute="centerX" id="N6y-K2-CBg"/>
                         </constraints>
                     </view>
                     <connections>
