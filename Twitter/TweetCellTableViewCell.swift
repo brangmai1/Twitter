@@ -10,7 +10,6 @@ import UIKit
 
 class TweetCellTableViewCell: UITableViewCell {
     
-    
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var tweetContent: UILabel!
@@ -19,7 +18,7 @@ class TweetCellTableViewCell: UITableViewCell {
     
     var favorited: Bool = false
     var tweetID: Int = -1
-    //var retweeted: Bool = false
+    //var retweeted: Bool = false // Checking
     
     @IBAction func favoriteTweet(_ sender: Any) {
         let toBeFavorited = !favorited
@@ -44,7 +43,6 @@ class TweetCellTableViewCell: UITableViewCell {
         }, failure: { (error) in
             print("Error in retweeting: \(error)")
         })
-
     }
     
     func setRetweeted(_ isRetweeted: Bool) {
