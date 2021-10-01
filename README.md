@@ -51,6 +51,7 @@ The following **bonus** features are implemented:
 
 ## Video Walkthrough
 
+![Twitter](https://user-images.githubusercontent.com/62917276/135648473-2d2e4782-f314-4105-b5b5-60d2382930ff.gif)
 
-![](https://i.imgur.com/7aeg73x.gif)
+
 
